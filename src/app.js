@@ -1,14 +1,13 @@
-import express from "express";
+import express from 'express'
 
-import config from "./config/config.js";
+import config from './config/config.js'
 
-const app = express();
+const app = express()
 
 // server
-app.set("port", config.PORT);
+app.set('port', config.PORT)
 
 // Middleware
-app.use(express.json());
+app.use(express.json())
 
-
-export default app;
+export default app
